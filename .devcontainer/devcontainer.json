@@ -1,0 +1,6 @@
+{
+  "image": "ghcr.io/shyim/devcontainers-php:8.1-fpm",
+  "features": {
+    "ghcr.io/shyim/devcontainers-features/symfony-cli:latest": {}
+  }
+}
