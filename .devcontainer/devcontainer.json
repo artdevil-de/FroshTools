@@ -1,6 +1,12 @@
 {
   "image": "ghcr.io/shyim/devcontainers-php:8.1-fpm",
   "features": {
-    "ghcr.io/shyim/devcontainers-features/symfony-cli:latest": {}
+    "ghcr.io/shyim/devcontainers-features/symfony-cli:latest": {},
+     "ghcr.io/shyim/devcontainers-features/php:latest": {
+          "version": "8.1"
+     },
+     "ghcr.io/devcontainers/features/node:1": {
+          "version": "16"
+     }
   }
 }
